@@ -1,17 +1,38 @@
 import React from "react";
-import Home from './Home';
-import About from './About';
-import Navbar from './Navbar';
+
+
+function NavBar() {
+  return (
+    <nav>
+      <h1>My Portfolio</h1>
+    </nav>
+  );
+}
+
+function Home() {
+  return (
+    <div id="home">
+      <h2>Welcome to my site!</h2>
+    </div>
+  );
+}
+
+
+function About() {
+  return (
+    <div id="about">
+      <h2>About</h2>
+    </div>
+  );
+}
 
 
 function App() {
   return (
     <div>
-      
-      <Home/>
-      <About/>
-      <Navbar/>
-     
+      <NavBar />
+      <Home />
+      <About />
     </div>
   );
 }

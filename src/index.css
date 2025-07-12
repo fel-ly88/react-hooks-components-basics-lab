@@ -62,3 +62,18 @@ nav a:active {
 #about img {
   max-height: 50%;
 }
+
+
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+}
+header h1 {
+  color: firebrick;
+}
+aside img {
+  width: 215px;
+}
+article {
+  margin-bottom: 2rem;
+}
